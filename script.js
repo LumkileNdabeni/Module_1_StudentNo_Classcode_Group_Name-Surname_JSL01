@@ -12,7 +12,10 @@ function validateSyntax() {
         result = "Invalid Syntax";
     }
 
-            document.getElementById('result').innerText = result;
+    document.getElementById('result').innerText = result;
+
+    // Displays result in console
+    console.log(result);
 }
 
 
